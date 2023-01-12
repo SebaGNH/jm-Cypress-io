@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "//inicializar \r npm init",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test2": "cypress open --browser firefox:dev --e2e"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Seba",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}
