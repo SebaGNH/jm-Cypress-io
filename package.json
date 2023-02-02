@@ -16,6 +16,10 @@
   "author": "Seba",
   "license": "ISC",
   "devDependencies": {
+    "@alexmagnus/cypress-full-dark-mode": "^1.4.1",
     "cypress": "^12.3.0"
+  },
+  "dependencies": {
+    "cypress-dark": "^1.8.3"
   }
 }

@@ -16,7 +16,7 @@ npm install cypress --save-dev
 - Cambiar en package.json "test": "test"
 test": "cypress open"
 
-- Ejecutamos
+- Ejecutamos test runner
 npm run test
 
 Se abriá una ventana, seleccionar "E2E Testing" y luego abajo continuar, elegimos el navegador y listo
@@ -49,6 +49,19 @@ Sub-String Matches: ^ Prefijo, $sufijo * substring(contains)
 ```
 
 
+
+- Los tests van en /cypress/integration  "integration ahora es e2e"
+
+- /cypress/downloads/ se genera automáticamente
+
+
+yarn add cypress-dark
+
+
+Install Dark theme
+
+Add to your cypress/support/e2e.js 
+require('cypress-dark')
 
 
 
